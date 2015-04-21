@@ -1,0 +1,57 @@
+\documentclass[11pt]{article}
+\input{p.tex}
+
+\title{Transfer-PAC Learning}
+
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+% Description of Transfer Learning
+Transfer Learning is the problem of learning from instances drawn from a training distribution and evaluating what is learned on separate instances drawn from a different distribution.
+
+% Description of PAC
+PAC is a framework for quantifying the learnable.
+
+% Proposal to combine the two
+In this paper, we develop a framework that poses the transfer learning problem as an extension of the PAC framework.
+
+% One sentence explaining why we might want this?
+
+% Explanation of theoretical results achieved, what problems are transferrable, etc.
+
+\end{abstract}
+
+% --- Introduction ---
+\section{Introduction}
+
+% --- Transfer Learning ---
+\section{Transfer Learning}
+
+% --- PAC Learning ---
+\section{PAC Learning}
+
+% --- TPAC Learning ---
+\section{Transfer-PAC Learning}
+
+% --- Example: TPAC for Images ---
+\section{Example: TPAC for Image Classification}
+
+% --- Example: TPAC for RL/Planning
+\section{Example: TPAC for RL/Planning}
+
+Problem Distribution is Parameterized OO-MDP.
+
+Two distributions: $D_{train}$ and $D_{test}$. If the problems are completely unrelated, we get nothing.
+
+Some interesting questions:
+\begin{enumerate}
+\item What if the action sets are the same or similar?
+\item What if the object classes are the same or similar? (perhaps different attribute ranges or something)
+\item What if the reward function is the same or similar?
+\item What if the transition dynamics are the same or similar?
+\end{enumerate}
+
+
+\end{document}
